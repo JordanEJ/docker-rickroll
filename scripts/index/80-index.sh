@@ -13,8 +13,8 @@ tee /usr/share/nginx/html/index.html << EOF >/dev/null
    <body>
        <video autoplay loop width="100%">
 
-    <source src="video.mp4"
-            type="video/mp4">
+    <source src="vid.mp4"
+            type="vid/mp4">
 
     Sorry, your browser doesn't support embedded videos.
 </video>
@@ -28,7 +28,7 @@ tee /usr/share/nginx/html/index.html << EOF >/dev/null
       </style>
       <script>
          // Change the variables below to your liking
-         const currentURL = "video.mp4";
+         const currentURL = "vid.mp4";
          const pageTitle = "Loading...";
          // End of changable variables
          
